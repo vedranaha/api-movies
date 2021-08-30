@@ -1,16 +1,23 @@
 header {
-  background: #1f1f1f;
+  background: #774848;
   color: white;
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: auto;
+  padding: 10px;
 }
 
 header span {
   cursor: pointer;
-  background: #1f1f1f;
+  color: #eed9d9;
+  padding: 20px;
 }
 
 header span:hover {
-  background: rgba(228, 228, 228, 0.493);
-  color: rgb(7, 7, 7);
-  border-radius: 5px;
+  background: rgba(169, 223, 180, 0.493);
+  color: rgb(112, 19, 19);
+}
+.movies {
+  display: grid;
 }
