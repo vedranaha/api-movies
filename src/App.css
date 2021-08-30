@@ -37,3 +37,11 @@ a:hover {
   color: rgb(61, 57, 57);
   font-size: 1em;
 }
+.movie {
+  box-shadow: rgba(0, 0.2, 0, 0.2) 3px 3px;
+  border-style: double;
+  border-radius: 2%;
+  border-color: rgb(155, 68, 31);
+  padding-left: 2.5em;
+  padding-bottom: 1em;
+}
