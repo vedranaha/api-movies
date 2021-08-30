@@ -5,9 +5,7 @@ const Header = (props) => {
   return (
     <header>
       <div className="menu">
-        <NavLink to="/">
-          <span className="home">Home</span>
-        </NavLink>
+        <span class="navbar-brand">API - REACT - movies</span>
         <NavLink to="/popular">
           <span className="popular">Popular movies</span>
         </NavLink>

@@ -15,11 +15,13 @@ const Movies = (props) => {
   }, [movieType]);
 
   return (
-    <div className="movies">
-      Movie type: {movieType}
-      {movies?.map((movie) => (
-        <Movie movie={movie} />
-      ))}
+    <div class="container">
+      <h4 className="titleMovieType">MovieType: {movieType}</h4>
+      <div className="movies">
+        {movies?.map((movie) => (
+          <Movie movie={movie} />
+        ))}
+      </div>
     </div>
   );
 };
