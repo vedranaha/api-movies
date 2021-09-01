@@ -1,16 +1,15 @@
 import React from "react";
+import "../Movie/Movie.css";
 
+const IMG_API = "http://image.tmdb.org/t/p/w185";
 const Movie = ({ movie }) => {
   return (
     <div className="movie">
-      <div className="title">
+      <div className="movieTitle">
         <h3>{movie.title}</h3>
       </div>
       <div className="imgMovie">
-        <img
-          src={"http://image.tmdb.org/t/p/w185" + movie.poster_path}
-          alt="movie img"
-        />
+        <img src={IMG_API + movie.poster_path} alt="movie img" />
         <div className="average">
           <p>{movie.vote_average}/10</p>
         </div>

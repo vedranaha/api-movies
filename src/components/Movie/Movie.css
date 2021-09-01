@@ -1,0 +1,56 @@
+.movie {
+  box-shadow: rgba(0, 0.2, 0, 0.2) 3px 3px;
+  border-style: double;
+  border-radius: 2%;
+  border-color: rgb(155, 68, 31);
+  padding: 0 1em 0 1em;
+}
+@media only screen and (max-width: 1440px) {
+  .movieTitle {
+    font-size: 0.8em;
+    height: 5.8vh;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .movieTitle {
+    font-size: 0.7em;
+    height: 5.6vh;
+    overflow: hidden;
+  }
+
+  img {
+    height: 270px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .movieTitle {
+    font-size: 0.7em;
+    height: 5.5vh;
+  }
+
+  img {
+    height: 270px;
+  }
+}
+@media only screen and (max-width: 450px) {
+  .movieTitle {
+    font-size: 0.7em;
+    height: 5.5vh;
+  }
+
+  img {
+    height: 270px;
+  }
+}
+
+.movie:hover {
+  transform: scale(1.5);
+  backface-visibility: hidden;
+  z-index: 1;
+  background: rgba(54, 54, 54, 0.685);
+  box-shadow: rgba(0, 0, 0, 0.774) 0px 0px 10px 7px;
+}
+
+.movie:hover .moreDetails {
+  transform: translateY(0%);
+}
