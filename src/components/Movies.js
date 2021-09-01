@@ -16,11 +16,11 @@ const Movies = (props) => {
 
   return (
     <div class="container">
-      <h4 className="titleMovieType">MovieType: {movieType}</h4>
+      <h4 className="titleMovieType">Movie Type: First 10 {movieType}</h4>
       <div className="movies">
-        {movies?.map((movie) => (
-          <Movie movie={movie} />
-        ))}
+        {movies?.map(
+          (movie, index) => index < 10 && <Movie movie={movie} key={movie.id} />
+        )}
       </div>
     </div>
   );
