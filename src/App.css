@@ -1,3 +1,6 @@
+html {
+  background-image: url(/src/img/popcorn.jpg);
+}
 .movies {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
@@ -8,6 +11,7 @@
   height: 90%;
   color: rgb(105, 33, 33);
   transition: all 2s;
+  background-color: cornsilk;
 }
 .titleMovieType {
   padding: 0.6em 1.5em;
@@ -20,4 +24,8 @@
   border-radius: 2%;
   border-color: rgb(155, 68, 31);
   padding: 0 1em 0 1em;
+}
+h3 {
+  text-align: center;
+  color: rgb(27, 99, 51);
 }
