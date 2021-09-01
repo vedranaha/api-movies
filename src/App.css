@@ -1,5 +1,5 @@
 html {
-  background-image: url(/src/img/popcorn.jpg);
+  background-image: url(/src/img/popcorn3.jpg);
 }
 .movies {
   display: grid;
@@ -24,8 +24,4 @@ html {
   border-radius: 2%;
   border-color: rgb(155, 68, 31);
   padding: 0 1em 0 1em;
-}
-h3 {
-  text-align: center;
-  color: rgb(27, 99, 51);
 }
