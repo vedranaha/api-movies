@@ -5,8 +5,11 @@ import "./Header.css";
 const Header = (props) => {
   return (
     <header>
+      <span class="navbar-brand">API - REACT - movies</span>
       <div className="menu">
-        <span class="navbar-brand">API - REACT - movies</span>
+        <NavLink to="/">
+          <span className="home">Home</span>
+        </NavLink>
         <NavLink to="/popular">
           <span className="popular">Popular movies</span>
         </NavLink>

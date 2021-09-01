@@ -1,19 +1,25 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
 header {
   background: rgb(155, 73, 73);
+  padding: 1.5em;
+  color: rgb(153, 245, 153);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 1.5em;
-  color: rgb(153, 245, 153);
-  font-size: larger;
-  font-weight: 500;
+}
+menu {
+  display: flex;
+  height: 3em;
 }
 span {
   align-items: center;
 }
 a {
   all: unset;
-  padding: 3em;
+  padding: 1em;
   cursor: pointer;
   transition: all 0.4s;
   color: rgb(164, 211, 95);
