@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Movie from "./Movie/Movie";
+import Movie from "../Movie/Movie";
+import "../Movies/Movies.css";
 
 const Movies = (props) => {
   const movieType = props.match.params.movieType;
@@ -15,12 +16,15 @@ const Movies = (props) => {
   }, [movieType]);
 
   return (
-    <div class="container">
-      <h4 className="titleMovieType">Movie Type: First 10 {movieType}</h4>
-      <div className="movies">
-        {movies?.map(
-          (movie, index) => index < 10 && <Movie movie={movie} key={movie.id} />
-        )}
+    <div className="container">
+      <div className="movieContainer">
+        <h4 className="titleMovieType">movieType={movieType}</h4>
+        <div className="movies">
+          {movies?.map(
+            (movie, index) =>
+              index < 20 && <Movie movie={movie} key={movie.id} />
+          )}
+        </div>
       </div>
     </div>
   );
