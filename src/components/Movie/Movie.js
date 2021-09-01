@@ -1,4 +1,5 @@
 import React from "react";
+import "../Movie/Movie.css";
 
 const Movie = ({ movie }) => {
   return (

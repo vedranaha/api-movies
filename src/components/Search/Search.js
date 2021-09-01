@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
-import Movie from "../Movie";
+import Movie from "../Movie/Movie";
 import "./search.css";
 
 const Search = () => {
