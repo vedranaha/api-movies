@@ -17,7 +17,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 -React -HTML5 -CSS3 -ES6 -API
 
-# The app gives the info of each movie tytle that contains:
+## The app gives the info of each movie tytle that contains:
 
 -Poster
 -Title, Original Title
@@ -25,4 +25,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 -Release date
 -Overview
 
-# The app contains search engine for movies by title.
+## The app contains search engine for movies by title.
