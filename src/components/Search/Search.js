@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import Movie from "../Movie/Movie";
+import "../Movie/Movie.css";
 import "./search.css";
 
 const Search = () => {
@@ -40,11 +41,11 @@ const Search = () => {
           value={query}
         />
       </form>
-
-      {search ? (
-        <p className="searchResults">Search results: {search}</p>
-      ) : null}
-
+      <div>
+        {search ? (
+          <p className="searchResults">Search results: {search}</p>
+        ) : null}
+      </div>
       <div className="result">
         {movies?.map(
           (movie, index) => index < 10 && <Movie movie={movie} key={movie.id} />

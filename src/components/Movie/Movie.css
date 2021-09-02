@@ -6,7 +6,7 @@
 
 .movie {
   padding: 3px;
-  background: darkolivegreen;
+  background: rgb(103, 129, 58);
   box-shadow: rgba(0, 0, 0, 0.561) 10px 5px 5px;
   display: flex;
   flex-direction: column;
@@ -17,6 +17,7 @@
   cursor: pointer;
   position: relative;
   overflow: hidden;
+  color: rgb(48, 19, 19);
 }
 .title {
   display: flex;
@@ -33,7 +34,7 @@
 }
 img {
   margin-top: 0.2em;
-  height: 40vh;
+  height: auto;
   border-radius: 7px;
 }
 @media only screen and (max-width: 768px) {
